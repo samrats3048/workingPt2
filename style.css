@@ -1,0 +1,83 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: #defef3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+.levels a{
+  text-decoration: none;
+  color: inherit
+
+}
+  .container {
+    align-content: center;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    width: 625px;
+    height: 90%;
+    /*~display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+  }
+  
+  .container > *{
+    padding:5px;
+  }
+  .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+  }
+
+  .game{
+    margin:5px;
+  }
+.reset{
+    align-items: flex-end;
+    
+}
+#again{
+    background-color: rgb(75, 124, 92);
+    color:black;
+    
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.backbutton{
+  margin: 0;
+
+}
+h1{
+    margin:5px;
+    font-size: 4em;
+    color:rgb(68, 106, 91);
+
+}
+p{
+    font-size: 1.2em;
+    color:black;
+    font-weight: bold;
+}
+#sub{
+    font-style: italic;
+    font-weight: 300;
+}
+button{
+    font-size: 1.4em;
+    color:black;
+    margin:10px;
+    border-radius: 4px;
+    padding:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    width:180px;
+    height: 45px;;
+}
